@@ -34,8 +34,8 @@ function endTest() {
 
     var wpm = 0; // Default value
 
-    if (timeElapsed !== 0 && !isNaN(typedWords)) {
-        wpm = Math.round((typedWords / timeElapsed) * 60);
+    if (timeElapsed !== 0 && !isNaN(typedWords.length)) {
+        wpm = Math.round((typedWords.length / timeElapsed) * 60);
     }
 
     var corrects = 0; //default value of correct rate
