@@ -14,7 +14,7 @@ function startTest() {
     // Change button text and functionality
     var button = document.getElementById("btn");
     button.innerHTML = "End Test";
-    button.onclick = endTest();
+    button.onclick = endTest;
 }
 
 function endTest() {
@@ -66,5 +66,5 @@ function endTest() {
     // Reset the button
     var button = document.getElementById("btn");
     button.innerHTML = "Start Test";
-    button.onclick = startTest();
+    button.onclick = startTest;
 }
